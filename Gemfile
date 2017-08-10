@@ -43,6 +43,10 @@ group :development, :test do
   gem 'selenium-webdriver'
 end
 
+group :development do
+  gem 'sqlite3'
+end
+
 group :production do
     gem 'pg'
 end
